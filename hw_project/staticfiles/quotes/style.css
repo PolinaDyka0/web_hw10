@@ -1,0 +1,102 @@
+.quote {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #333333;
+}
+
+.quote span.text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    font-style: italic;
+}
+
+.quote small.author {
+    font-weight: bold;
+    color: #3677E8;
+}
+
+.quote .tags {
+    margin-top: 10px;
+}
+
+.tag {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    background-color: #7CA3E6;
+}
+
+.pager {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.pager {
+    padding-left: 0;
+    margin: 22px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager .next>a, .pager .next>span {
+    float: right;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+}
+
+.disabled {
+    color: #333333;
+    cursor: not-allowed;
+}
+
+.author-details {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  color: red;
+}
+
+.author-details h1 {
+  font-size: 36px;
+  margin: 0 0 10px;
+  color: red;
+}
+
+.author-details p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: red;
+  margin: 0 0 20px;
+}
+
+.author-quotes {
+  margin-top: 40px;
+  color: red;
+}
+
+.author-quotes h2 {
+  font-size: 28px;
+  margin: 0 0 20px;
+  color: red;
+}
+
+.author-quotes li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: red;
+}

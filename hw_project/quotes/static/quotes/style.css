@@ -61,3 +61,36 @@
     color: #333333;
     cursor: not-allowed;
 }
+
+.author-details {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.author-details h1 {
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+.author-details p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.author-quotes {
+  margin-top: 40px;
+}
+
+.author-quotes h2 {
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.author-quotes li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}

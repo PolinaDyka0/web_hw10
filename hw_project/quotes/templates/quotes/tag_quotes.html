@@ -1,0 +1,10 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+  <h1>Quotes with tag "{{ tag }}"</h1>
+  <ul>
+    {% for quote in quotes %}
+      <li>{{ quote.quote }} - <em>{{ quote.author.fullname }}</em></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
