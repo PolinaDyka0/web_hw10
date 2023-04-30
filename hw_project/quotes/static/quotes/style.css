@@ -55,12 +55,14 @@
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 .pager li.previous {
   float: left;
   clear: none;
   margin-right: 10px;
+
 }
 
 .pager li.last {
