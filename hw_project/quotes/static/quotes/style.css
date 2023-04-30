@@ -57,6 +57,19 @@
     border-radius: 15px;
 }
 
+.pager li.previous {
+  float: left;
+  clear: none;
+  margin-right: 10px;
+}
+
+.pager li.last {
+  float: right;
+  clear: none;
+  margin-right: 10px;
+}
+
+
 .disabled {
     color: #333333;
     cursor: not-allowed;
@@ -94,3 +107,4 @@
   line-height: 1.5;
   margin-bottom: 10px;
 }
+
